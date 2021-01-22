@@ -36,4 +36,4 @@ jobs:
                   TG_USER_ID: ${{ github.event.client_payload.TG_USER_ID || secrets.TG_USER_ID }}
                   GITHUB: ${{ github.event.client_payload.GITHUB || secrets.GITHUB }}
                   JDNIAN_SHARECODES: ${{ github.event.client_payload.JDNIAN_SHARECODES || secrets.JDNIAN_SHARECODES }}
-                  SYNCURL: https://github.com/an0na/jd_scripts/raw/master/jd_nian.js 
+                  SYNCURL: https://raw.githubusercontent.com/HarfordNova/Actions/main/jd_nian_ar.js
